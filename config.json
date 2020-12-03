@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": ""
+  },
+  "text": {
+    "more": "\u003cP\u003e\n방향: 화자가 청자에게 이야기 하는 것을 방향에 반영하였습니다.",
+    "intro": "김진명 작가의 \u003c신 황태자비 납치사건\u003e을 대화를 중심으로 인물관계망을 시각화하였습니다.",
+    "title": ""
+  },
+  "legend": {
+    "edgeLabel": "대화",
+    "colorLabel": "국가",
+    "nodeLabel": "화자, 청자"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "nationality",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
